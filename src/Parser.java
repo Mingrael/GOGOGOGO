@@ -51,11 +51,14 @@ public class Parser {
 
         } catch (ParseException e)
         {
-            e.printStackTrace();
+            HelpFormatter formatter = new HelpFormatter();
+            formatter.printHelp("AAA protocol", option);
         }
 
         return Vremen;
 
     }
+
+
 
 }
