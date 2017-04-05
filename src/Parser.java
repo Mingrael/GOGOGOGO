@@ -1,6 +1,7 @@
 /**
  * Created by Миша on 03.04.2017.
  */
+//Клас парсинга данных
 import org.apache.commons.cli.*;
 
 public class Parser {
